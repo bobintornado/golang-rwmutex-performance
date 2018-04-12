@@ -1,3 +1,4 @@
+go version go1.10 darwin/amd64
 ```
 go test -bench=. -cpu=1,2,3,4 ./performance.go ./performance_test.go
 goos: darwin
